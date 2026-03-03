@@ -59,12 +59,12 @@ class Public_Transport : Transport
         Console.WriteLine($"Номер общественного транспорта: {Number_Public_Transport}, номер маршрута: {Number_Route}");
     }
 
-    public new void Transport_Brand()
+    public  void Transport_Brand()
     {
         Console.WriteLine($"Бренд общественного транспорта: {Brand} ");
     }
 
-    public new void Transport_Size()
+    public  void Transport_Size()
     {
         Console.WriteLine($"Размер общественного транспорта {Brand}: {Size} ");
     }
